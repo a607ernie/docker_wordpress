@@ -68,9 +68,11 @@ Guide
 
 ![png](media/wordpress_006.png)
 
-3. 照著```建議操作```去安裝所需要的外掛和設定靜態頁面後，也要```匯入示範資料```
+3. 照著```建議操作```去安裝所需要的外掛和設定靜態頁面後
 
 ![png](media/wordpress_007.png)
+
+也要```匯入示範資料```
 
 ![png](media/wordpress_008.png)
 
