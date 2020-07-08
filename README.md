@@ -101,7 +101,7 @@ Guide
 ---
 
 1. 把```wpsite/wp-content/updraft```和 ```wpsite/wp-content/plugins/updraftplus```整個資料夾複製出來
-2. 把wordpress關掉，```移除wpsite資料夾```並用```-v```刪除volume
+2. 把wordpress關掉，```移除wpsite資料夾```並用```-v```刪除volume.
 ```bash
 $ docker-compose down -v
 ```
