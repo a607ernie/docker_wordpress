@@ -13,7 +13,7 @@
 前置條件
 ---
 1. 安裝python
-2. 安裝docker、docker compose
+2. 安裝docker、docker-compose
 
 環境
 ---
