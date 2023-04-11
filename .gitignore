@@ -129,3 +129,4 @@ updraftplus
 .git
 docker-compose.yml
 .dockerignore
+wpsite
