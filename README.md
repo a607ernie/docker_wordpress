@@ -1,6 +1,7 @@
 # Wordpress with Docker
 
 - [Wordpress with Docker](#wordpress-with-docker)
+  - [版本](#版本)
   - [前置條件](#前置條件)
   - [環境](#環境)
   - [Guide](#guide)
@@ -10,10 +11,25 @@
   - [驗證備份資料](#驗證備份資料)
 
 
+版本
+---
+- ver.1
+   - docker-compose.yaml
+      - mysql
+      - phpmyadmin
+      - wordpress
+- ver.2
+   - wordpress/docker-compose.yaml
+      - mysql
+      - wordpress
+      - `nginx`
+      - certbot(可選)
+
+
 前置條件
 ---
 1. 安裝python
-2. 安裝docker、docker compose
+2. 安裝docker、docker-compose
 
 環境
 ---

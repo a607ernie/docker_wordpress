@@ -98,7 +98,6 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -126,3 +125,8 @@ dmypy.json
 /wpsite
 updraft
 updraftplus
+
+.git
+docker-compose.yml
+.dockerignore
+wpsite
