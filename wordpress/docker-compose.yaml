@@ -6,6 +6,7 @@ services:
     image: mysql:8.0
     container_name: db
     restart: always
+    # platform: linux/amd64 # if use raspiberry or other arm machine, use this line.
     env_file: .env
     environment:
       - MYSQL_DATABASE=wordpress
