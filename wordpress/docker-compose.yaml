@@ -45,22 +45,22 @@ services:
     volumes:
       - wordpress:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
-    #  - certbot-etc:/etc/letsencrypt
+      - certbot-etc:/etc/letsencrypt
     networks:
       - app-network
 
-  # certbot:
-  #   depends_on:
-  #     - webserver
-  #   image: certbot/certbot
-  #   container_name: certbot
-  #   volumes:
-  #     - certbot-etc:/etc/letsencrypt
-  #     - wordpress:/var/www/html
-  #   command: certonly --webroot --webroot-path=/var/www/html --email sammy@your_domain --agree-tos --no-eff-email --staging -d localhost
+  certbot:
+    depends_on:
+      - webserver
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - certbot-etc:/etc/letsencrypt
+      - wordpress:/var/www/html
+    command: certonly --webroot --webroot-path=/var/www/html --email sammy@your_domain --agree-tos --no-eff-email --staging -d localhost
 
 volumes:
-  #certbot-etc:
+  certbot-etc:
   wordpress:
   dbdata:
 
